@@ -183,6 +183,14 @@
     .logo {
         padding-right: 30px;
     }
+    .img {
+        transition: width 2s, height 2s, transform 0s;
+    }
+    .img:hover {
+        transform: translate(-10px 0px 0px 0px);
+        width: 100px;
+        height: 100px;
+    }
     .main {
         background: #262621
     }
@@ -191,6 +199,18 @@
         font-size: 40px;
         padding: 160px 20px 0px 50px;
         text-align: right;
+    }
+    .img1 {
+        transition: border 1s;
+    }
+    .img1:hover {
+        border: #9d9d9d solid 4px;
+    }
+    .img2 {
+        transition: border 1s;
+    }
+    .img2:hover {
+        border: #9d9d9d solid 4px;
     }
     .Leer {
         color: #F2BF27;
@@ -233,6 +253,18 @@
     .sec ul li a {
         font-size: 30px;
         color: #ffedcb;
+    }
+    .nc {
+        transition: font-size 1s;
+    }
+    .nc:hover {
+        font-size: 40px;
+    }
+    .nc1 {
+        transition: font-size 1s;
+    }
+    .nc1:hover {
+        font-size: 40px;
     }
     .footer ul li {
         padding: 85px 30px;
