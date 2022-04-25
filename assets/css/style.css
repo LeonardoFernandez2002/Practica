@@ -6,7 +6,7 @@
     background: #F2B3BF;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 170px 400px 400px 100px 100px;
+    grid-template-rows: 170px auto auto 100px 100px;
     grid-template-areas: "nav    nav"
                          "main   main"
                          "main1  main1"
