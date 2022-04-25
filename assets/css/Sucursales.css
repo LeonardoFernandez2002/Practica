@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 600px 600px 100px;
+    grid-template-areas: "nav    nav"
+                         "sec1   sec1"
+                         "sec2   sec2"
+                         "footer footer";
+}
+.nav {
+    background: #F2D49B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-area: nav;
+}
+.nav ul  {
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+.nav ul li {
+    text-align: center;
+    padding-right: 7px;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 3px 2px;
+}
+.nav ul li a:hover {
+    background: #ad9466ba;
+}
+.logo {
+    padding: 20px 30px 0px;
+    height: 100px;
+}
+.img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.sec1 {
+    background: #262621;
+    grid-area: sec1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pa {
+    color: #F2D49B;
+    font-size: 25px;
+    padding: 0px 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+.suc1 {
+    height: 300px;
+    width: 200px;
+    border: #F2D49B solid 3px;
+}
+.pa1 {
+    color: #F2D49B;
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.sec2 {
+    background: #9d7c1ba4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-area: sec2;
+}
+.pa2 {
+    color: #262621;
+    padding: 0px 60px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.suc2 {
+    border: #262621 solid 4px;
+    height: 300px;
+    width: 200px;
+}
+.pa3 {
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer {
+    background: #F2D49B;
+    grid-area: footer;
+    margin-bottom: -10px;
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer ul li {
+    padding: 40px 10px;
+}
+.footer ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+@media screen and (min-width:1023px) {
+    .contenedor {
+        grid-template-rows: 100px 800px 800px 100px;
+    }
+    .nav ul li a {
+        font-size: 25px;
+        padding: 10px 20px ;
+    }
+    .logo {
+        padding: 10px 30px;
+    }
+    .suc1 {
+        height: 520px;
+        width: 420px;
+    }
+    .pa {
+        font-size: 40px;
+        padding: 0px 200px;
+    } 
+    .pa1 {
+        font-size: 25px;
+        width: 800px;
+    }
+    .suc2 {
+        height: 520px;
+        width: 420px;
+    }
+    .pa2 {
+        font-size: 40px;
+        padding: 0px 300px;
+    } 
+    .pa3 {
+        font-size: 25px;
+        width: 800px;
+    }
+    .footer ul li a {
+        font-size: 25px;
+    }
+}

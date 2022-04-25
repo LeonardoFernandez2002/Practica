@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    background: #F2B3BF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px 400px 400px 100px 100px;
+    grid-template-areas: "nav    nav"
+                         "main   main"
+                         "main1  main1"
+                         "sec    sec"
+                         "footer footer";
+}
+.nav {
+    background: #F2D49B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-area: nav;
+}
+.nav ul  {
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+.nav ul li {
+    text-align: center;
+    padding-right: 7px;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 3px 2px;
+}
+.nav ul li a:hover {
+    background: #ad9466ba;
+}
+.logo {
+    padding: 20px 30px 0px;
+    height: 100px;
+}
+.img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+/*Hata aca el navegador*/
+.main {
+    background: #262621;
+    grid-area: main;
+}
+.main p {
+    color: #F2BF27;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding: 20px 20px 0px;
+}
+.Leer {
+    text-decoration: none;
+    font-size: 25px;
+    color: #F2BF27;
+}
+/* Hasta aca el main*/
+.main1 {
+    background: #55554c;
+    grid-area: main1;
+}
+.main1 p {
+    color: #F2BF27;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding: 20px 20px 0px;
+}
+.Leer1 {
+    text-decoration: none;
+    font-size: 25px;
+    color: #F2BF27;
+}
+/* Hasta aca el main1*/
+.sec {
+    background: #A68A56;
+    grid-area: sec;
+}
+.sec ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.sec ul li {
+    padding: 40px 10px 0px;
+}
+.sec ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffedcb;
+    font-family: 'Pathway Gothic One', sans-serif;  
+}
+/*Hasta aca el section*/
+.footer {
+    background: #F2D49B;
+    grid-area: footer;
+    margin-bottom: -10px;
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer ul li {
+    padding: 40px 10px;
+}
+.footer ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+.main2 {
+    display: none;
+}
+.main3 {
+    display: none;
+}
+/*Hata aca media mobile*/
+@media screen and (min-width:405px) {
+    .contenedor {
+        background: #9d9d9d;
+        grid-template-rows: 100px 400px 400px 100px 100px;
+    }
+    .nav ul li {
+        padding: 30px 0px;
+    }
+    .nav ul li a{
+        padding: 10px 20px;
+    }
+    .logo {
+        padding: 10px 0px 0px 0px;
+    }
+    .main p {
+        padding: 30px 40px 0;
+        color: #F2BF27;
+        font-size: 30px;
+    }
+    .Leer {
+        color: #F2BF27;
+        font-size: 20px;
+    }
+    .main1 {
+        background: #55554c;
+    }
+    .main1 p {
+        padding: 30px 40px 0;
+        color: #F2BF27;
+        font-size: 30px;
+    }
+    .Leer1 {
+        color: #F2BF27;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .contenedor {
+        grid-template-rows: 100px 900px 900px 200px 200px;
+        grid-template-areas: "nav    nav"
+                         "main   main2"
+                         "main3  main1"
+                         "sec    sec"
+                         "footer footer";
+    }   
+    
+    .nav ul li a {
+        font-size: 25px;
+        padding: 10px 20px ;
+    }
+    .logo {
+        padding-right: 30px;
+    }
+    .main {
+        background: #262621
+    }
+    .main p {
+        color: #F2BF27;
+        font-size: 40px;
+        padding: 160px 20px 0px 50px;
+        text-align: right;
+    }
+    .Leer {
+        color: #F2BF27;
+        font-size: 35px;
+        padding: 10px;
+    }
+    .Leer:hover {
+        background: #9d7c1ba4;
+    }
+    .main1 {
+        background: #262621;
+        display:show;
+    }
+    .main1 p {
+        color: #F2BF27;
+        font-size: 40px;
+        padding: 40px 80px 0px 0px;
+        text-align: left;
+    }
+    .Leer1 {
+        color: #F2BF27;
+        font-size: 35px;
+        padding: 10px;
+    }
+    .Leer1:hover {
+        background: #9d7c1ba4;
+    }
+    .main2{
+        background: #262621;
+        display: flex;
+        justify-content: right;
+    }
+    .main3 {
+        background: #262621;
+        display: flex;
+    }
+    .sec ul li {
+        padding: 80px 40px;
+    }
+    .sec ul li a {
+        font-size: 30px;
+        color: #ffedcb;
+    }
+    .footer ul li {
+        padding: 85px 30px;
+    }
+    .footer ul li a {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+    .footer ul li a:hover {
+        background: #ad9466ba
+    }
+}

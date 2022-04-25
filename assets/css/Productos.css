@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 800px 800px 100px;
+    grid-template-areas:"nav    nav"
+                        "p1     p1"
+                        "p2     p2"
+                        "footer footer";
+}
+.nav {
+    background: #F2D49B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-area: nav;
+}
+.nav ul  {
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+.nav ul li {
+    text-align: center;
+    padding-right: 7px;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 3px 2px;
+}
+.nav ul li a:hover {
+    background: #ad9466ba;
+}
+.logo {
+    padding: 20px 30px 0px;
+    height: 100px;
+}
+.img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.p1 {
+    background: #593A27;
+    grid-area: p1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+.img1 {
+    height: 200px;
+    width: 150px;
+    border: #A68A56 4px solid;
+}
+.precio {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.img2{
+    height: 200px;
+    width: 150px;
+    border: #A68A56 4px solid;
+}
+.precio2 {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.p2 {
+    background: #A68A56;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    grid-area: p2;
+}
+.img3 {
+    height: 200px;
+    width: 150px;
+    border: #593A27 4px solid;
+}
+.precio3 {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.img4 {
+    height: 200px;
+    width: 150px;
+    border: #593A27 4px solid
+}
+.precio4 {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer {
+    background: #F2D49B;
+    grid-area: footer;
+    margin-bottom: -10px;
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer ul li {
+    padding: 40px 10px;
+}
+.footer ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+@media screen and (min-width:404px) {
+    .contenedor {
+        grid-template-rows: 100px 500px 500px 100px;
+    }
+    .logo {
+        padding: 10px;
+    }
+    .precio {
+        width: 180px;
+        padding-top: 60px;
+    }
+    .precio2 {
+        width: 180px;
+        padding-top: 60px;
+    }
+    .precio3 {
+        width: 180px;
+        padding-top: 60px;
+    }
+    .precio4 {
+        width: 180px;
+        padding-top: 60px;
+    }
+}
+@media screen and (min-width:767px) {
+    .contenedor {
+        grid-template-rows: 100px 300px 300px 100px;
+    }
+    .img1 {
+        order: calc(1);
+    }
+    .precio {
+        order: calc(2);
+        text-align: left;
+        padding-left: 10px;
+    }
+    .img2 {
+        order: calc(4);
+    }
+    .precio2 {
+        text-align: right;
+        padding-right: 10px;
+        order: calc(3);
+    }
+    .img3 {
+        order: calc(1);
+    }
+    .precio3 {
+        padding-left: 10px;
+        text-align: left;
+        order: calc(2);
+    }
+    .img4 {
+        order: calc(4);
+    }
+    .precio4 {
+        padding-right: 10px;
+        text-align: right;
+        order: calc(3);
+    }
+}
+@media screen and (min-width:1023px) {
+    .contenedor {
+        grid-template-rows: 100px 600px 600px 100px;
+    }
+    .nav ul li a {
+        font-size: 25px;
+        padding: 10px 20px ;
+    }
+    .logo {
+        padding-right: 30px;
+    }
+    .p1 {
+        padding: 100px 60px 0px;
+    }
+    .img1 {
+        height: 330px;
+        width: 250px;
+    }
+    .img2 {
+        height: 330px;
+        width: 250px;
+    }
+    .precio {
+        padding-top: 100px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .precio2 {
+        padding-top: 100px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .p2 {
+        padding: 100px 60px 0px;
+    }
+    .img3 {
+        height: 330px;
+        width: 250px;
+    }
+    .img4 {
+        height: 330px;
+        width: 250px;
+    }
+    .precio3 {
+        padding-top: 100px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .precio4 {
+        padding-top: 100px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .footer ul li  a{
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+    .footer ul li a:hover {
+        background: #ad9466ba;
+    }
+}
