@@ -1,279 +1,89 @@
-* {
-    margin: 0;
+.container-fluid {
+    background: #262621;
+}
+#nav {
+    background: #F2D49B;
+    font-family: 'Bebas Neue', cursive;
+}
+.row ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.ini {
+    padding-left: 30px;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#img {
+    height: 130px;
+    width: 130px;
+    padding-top: 20px;
+    transition: height 2s, width 2s;
+}
+#img:hover {
+    height: 150px;
+    width: 150px;
+}
+#sec p {
+    color: #F2BF27;
+    font-size: 44px;
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 20px;
+}
+.leer {
+    color: #96771b;
+    text-decoration: none;
+}
+.leer:hover {
+    color: white;
+}
+#byw {
+    padding-left: 110px;
+}
+#img1 {
     padding: 0;
 }
-.contenedor {
-    background: #F2B3BF;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 170px auto auto 100px 100px;
-    grid-template-areas: "nav    nav"
-                         "main   main"
-                         "main1  main1"
-                         "sec    sec"
-                         "footer footer";
-}
-.nav {
-    background: #F2D49B;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    grid-area: nav;
-}
-.nav ul  {
-    list-style: none;
-    display: flex;
-    padding-bottom: 20px;
-    justify-content: space-around;
-}
-.nav ul li {
-    text-align: center;
-    padding-right: 7px;
-}
-.nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Bebas Neue', cursive;
-    padding: 3px 2px;
-}
-.nav ul li a:hover {
-    background: #ad9466ba;
-}
-.logo {
-    padding: 20px 30px 0px;
-    height: 100px;
-}
-.img {
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-}
-/*Hata aca el navegador*/
-.main {
-    background: #262621;
-    grid-area: main;
-}
-.main p {
+#sec1 p {
     color: #F2BF27;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Pathway Gothic One', sans-serif;
-    padding: 20px 20px 0px;
-}
-.Leer {
-    text-decoration: none;
-    font-size: 25px;
-    color: #F2BF27;
-}
-/* Hasta aca el main*/
-.main1 {
-    background: #55554c;
-    grid-area: main1;
-}
-.main1 p {
-    color: #F2BF27;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Pathway Gothic One', sans-serif;
-    padding: 20px 20px 0px;
-}
-.Leer1 {
-    text-decoration: none;
-    font-size: 25px;
-    color: #F2BF27;
-}
-/* Hasta aca el main1*/
-.sec {
-    background: #A68A56;
-    grid-area: sec;
-}
-.sec ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-.sec ul li {
-    padding: 40px 10px 0px;
-}
-.sec ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #ffedcb;
-    font-family: 'Pathway Gothic One', sans-serif;  
-}
-/*Hasta aca el section*/
-.footer {
-    background: #F2D49B;
-    grid-area: footer;
-    margin-bottom: -10px;
-}
-.footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-.footer ul li {
-    padding: 40px 10px;
-}
-.footer ul li a {
-    color: white;
-    font-size: 17px;
-    text-decoration: none;
+    font-size: 44px;
     font-family: 'Bebas Neue', cursive;
 }
-.main2 {
-    display: none;
+#cacao {
+    padding-right: 40px;
 }
-.main3 {
-    display: none;
+#img2 {
+    padding: 0;
 }
-/*Hata aca media mobile*/
-@media screen and (min-width:405px) {
-    .contenedor {
-        background: #9d9d9d;
-        grid-template-rows: 100px 400px 400px 100px 100px;
-    }
-    .nav ul li {
-        padding: 30px 0px;
-    }
-    .nav ul li a{
-        padding: 10px 20px;
-    }
-    .logo {
-        padding: 10px 0px 0px 0px;
-    }
-    .main p {
-        padding: 30px 40px 0;
-        color: #F2BF27;
-        font-size: 30px;
-    }
-    .Leer {
-        color: #F2BF27;
-        font-size: 20px;
-    }
-    .main1 {
-        background: #55554c;
-    }
-    .main1 p {
-        padding: 30px 40px 0;
-        color: #F2BF27;
-        font-size: 30px;
-    }
-    .Leer1 {
-        color: #F2BF27;
-        font-size: 20px;
-    }
+#sec2 {
+    background: #917930;
 }
-@media screen and (min-width:1024px) {
-    .contenedor {
-        grid-template-rows: 100px 900px 900px 200px 200px;
-        grid-template-areas: "nav    nav"
-                         "main   main2"
-                         "main3  main1"
-                         "sec    sec"
-                         "footer footer";
-    }   
-    
-    .nav ul li a {
-        font-size: 25px;
-        padding: 10px 20px ;
-    }
-    .logo {
-        padding-right: 30px;
-    }
-    .img {
-        transition: width 2s, height 2s, transform 0s;
-    }
-    .img:hover {
-        transform: translate(-10px 0px 0px 0px);
-        width: 100px;
-        height: 100px;
-    }
-    .main {
-        background: #262621
-    }
-    .main p {
-        color: #F2BF27;
-        font-size: 40px;
-        padding: 160px 20px 0px 50px;
-        text-align: right;
-    }
-    .img1 {
-        transition: border 1s;
-    }
-    .img1:hover {
-        border: #9d9d9d solid 4px;
-    }
-    .img2 {
-        transition: border 1s;
-    }
-    .img2:hover {
-        border: #9d9d9d solid 4px;
-    }
-    .Leer {
-        color: #F2BF27;
-        font-size: 35px;
-        padding: 10px;
-    }
-    .Leer:hover {
-        background: #9d7c1ba4;
-    }
-    .main1 {
-        background: #262621;
-        display:show;
-    }
-    .main1 p {
-        color: #F2BF27;
-        font-size: 40px;
-        padding: 40px 80px 0px 0px;
-        text-align: left;
-    }
-    .Leer1 {
-        color: #F2BF27;
-        font-size: 35px;
-        padding: 10px;
-    }
-    .Leer1:hover {
-        background: #9d7c1ba4;
-    }
-    .main2{
-        background: #262621;
-        display: flex;
-        justify-content: right;
-    }
-    .main3 {
-        background: #262621;
-        display: flex;
-    }
-    .sec ul li {
-        padding: 80px 40px;
-    }
-    .sec ul li a {
-        font-size: 30px;
-        color: #ffedcb;
-    }
-    .nc {
-        transition: font-size 1s;
-    }
-    .nc:hover {
-        font-size: 40px;
-    }
-    .nc1 {
-        transition: font-size 1s;
-    }
-    .nc1:hover {
-        font-size: 40px;
-    }
-    .footer ul li {
-        padding: 85px 30px;
-    }
-    .footer ul li a {
-        font-size: 30px;
-        padding: 10px 30px;
-    }
-    .footer ul li a:hover {
-        background: #ad9466ba
-    }
+#sec2 p {
+    padding: 40px 0px;
+    font-size: 30px;
+}
+#sec2 p a {
+    text-decoration: none;
+    color: rgb(207, 182, 108);
+    font-family: 'Bebas Neue', cursive;
+    transition: font-size 2s;
+}
+#sec2 p a:hover {
+    font-size: 35px;
+}
+#footer {
+    background: #F2D49B;
+}
+#footer ul li {
+    padding: 30px 0px;
+}
+#footer ul li a {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.fac {
+    padding-left: 10px;
 }

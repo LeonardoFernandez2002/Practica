@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Contacto.css">
+    <link href="./assets/boots/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/Contacto.css">
     <title>Document</title>
 </head>
-<body class="contenedor">
-    <nav class="nav">
-        <div class="logo"><a href=""><img class="img" src="./Media/new logo.jpg" alt=""></a></div><br>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./Productos.html">Productos</a></li>
-            <li><a href="./Sucursales.html">Sucursales</a></li>
-            <li><a href="./Contacto.html">Contacto</a></li>
+<body class="container-fluid">
+    <div class="row" id="nav">
+        <ul class="row d-flex justify-content-center list-unstyled align-items-center">
+            <div class="col-md-2" id="img"><a href="./index.html"><img class="img-fluid" id="logo" src="./Media/new logo.jpg" alt=""></a></div>
+            <li class="col-md-1"><a class="ini" href="./index.html">Inicio</a></li>
+            <li class="col-md-1"><a href="./assets/Productos.html">Productos</a></li>
+            <li class="col-md-1"><a href="./assets/Sucursales.html">Sucursales</a></li>
+            <li class="col-md-1"><a href="./assets/Contacto.html">Contacto</a></li>
         </ul>
-    </nav>
-    <div class="div">
-        <form class="form">
-            <h1>Registrate</h1>
-            <input type="email" class="form-control" id="floatingInput" placeholder="Email"><br><br>
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña"><br>
-            <button class="boton" type="submit">Sign in</button>
-        </form>
     </div>
-    <footer class="footer">
-        <ul>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Youtube</a></li>
-            <li><a href="">Instagram</a></li>
-        </ul>
-    </footer>
+ <div class="row d-flex justify-content-center align-items-center">
+   <div class="row d-block" id="form">
+    <div class="input-group mb-3" id="form_name">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3" id="form_apel">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3" id="form_mail">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+      </div>
+      <div><input type="submit" class="boton"></div>
+   </div>
+</div>
+<br><br><br>
+<div class="row" id="footer">
+    <ul class="row d-flex justify-content-center align-items-center list-unstyled">
+        <li class="col-md-1"><a href="">Youtube</a></li>
+        <li class="col-md-1"><a href="">Instagram</a></li>
+        <li class="col-md-1"><a class="fac" href="">Facebook</a></li>
+    </ul>
+</div>
+
+
+    <script src="./assets/boots/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
