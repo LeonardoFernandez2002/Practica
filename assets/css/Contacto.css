@@ -2,63 +2,112 @@
     background: #262621;
 }
 #nav {
-    background: #F2D49B;
+    background: #D9CCC1;
+    height: 80px;
+}
+#nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+#nav ul li {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
     font-family: 'Bebas Neue', cursive;
 }
-.row ul li a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-.ini {
-    padding-left: 30px;
-}
-#logo {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+#nav ul li a:hover {
+    color: #D9665B;
+    border-bottom: #D9665B solid 2px;
 }
 #img {
-    height: 130px;
-    width: 130px;
-    padding-top: 20px;
-    transition: height 2s, width 2s;
+width: 100px;
 }
-#img:hover {
-    height: 150px;
-    width: 150px;
+#logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%
 }
-#form_name {
-    padding-top: 100px;
-    width: 400px;
+#ubic {
+    background: #D9665B;
+    height: 600px;
 }
-#form_apel {
-    width: 400px;
+.info {
+    width: 300px;
+    height: 600px;
+    padding-top: 150px;
+    font-family: 'Libre Baskerville', serif;
 }
-#form_mail {
-    width: 400px;
+.info a {
+    font-size: 25px;
+    color: #D9CCC1;
+    text-decoration: none;
+}
+.info a:hover {
+    font-size: 27px;
+} 
+.ubi {
+    width: 850px;
+    margin-left: -20px;
+}
+.ife {
+    border: #262621 solid 4px;
 }
 #form {
-    height: 400px;
-    width: 420px;
-    margin-top: 100px;
-    background: #f2d49b58;
-    border: #F2D49B solid 3px;
+    height: 200px;
+    background: #b5a89f;
+    display: flex;
+    justify-content: center;
+}
+.email {
+    width: 200px;
+    height: 40px;
 }
 .boton {
-    width: 80px;
-    font-family: 'Bebas Neue', cursive;
+    height: 40px;
+    width: 170px;
+    background: #262621;
+    color: #D9CCC1;
+}
+#fo {
+    padding-top: 40px;
+}
+#dej {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
 }
 #footer {
-    background: #F2D49B;
+    background: #908780;
 }
-#footer ul li {
-    padding: 30px 0px;
+#dir {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
-#footer ul li a {
-    font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
+#avis li {
+    padding: 0px 20px;
+    border-right: rgb(97, 97, 97) 2px solid;
 }
-.fac {
-    padding-left: 10px;
+#avis li a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+.acc {
+    border-left: 2px solid rgb(97, 97, 97);
+}
+#red {
+    padding-top: 20px;
+}
+#red img {
+    width: 40px;
+    height: 40px;
+}
+#red li {
+    padding: 0px 20px;
 }
