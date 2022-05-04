@@ -1,246 +1,112 @@
-.container-fluid {
-    background: #262621;
+body {
+  background: #F29494;
+  padding: 0;
+  margin: 0;
 }
-#nav {
-    background: #D9CCC1;
-    height: 180px;
-}
-#nav ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#nav ul li {
-    display: flex;
-    width: 100px;
-    justify-content: center;
-}
-#nav ul li a{
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    font-family: 'Bebas Neue', cursive;
-}
-#nav ul li a:hover {
-    color: #D9665B;
-    border-bottom: #D9665B solid 2px;
-}
-#img {
-    display: flex;
-    justify-content: center;
-    width: 350px;
-}
-#logo {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%
-}
-#sec {
-    background-image: url(../Media/fondo_sec.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 550px;
-}
-#par {
-    color: #D9CCC1;
-    background: rgba(0, 0, 0, 0.524);
-}
-#par h1 {
-    padding-left: 20px;
-}
-#par p {
-    padding-left: 20px;
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
-}
-.menu {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    border: #D9CCC1 solid 1px;
-    border-radius: 25px;
-    margin-left: 20px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
-}
-.menu a {
-    text-decoration: none;
-    color: #D9CCC1;
-    width: 180px;
-}
-.menu:hover {
-    border: #D9665B solid 1px;
-}
-.menu a:hover {
-    color: #D9665B;
-}
-.hora {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    width: 200px;
-    border: #D9CCC1 solid 1px;
-    border-radius: 25px;
-    margin-left: 20px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
-}
-.hora a {
-    width: 180px;
-    text-decoration: none;
-    color: #D9CCC1;
-}
-.hora:hover {
-    border: #D9665B solid 1px;
-}
-.hora a:hover {
-    color: #D9665B;
-}
-#sec1 {
-    background: #F2E2CE;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    align-items:center ;
-    
-}
-.ico {
-    padding-top: 20px;
-    text-align: center;
-    height: 300px;
-    width: 300px;
-}
-.ico p {
-    padding-top: 10px;
-}
-.ico1 {
-    text-align: center;
-    height: 300px;
-    width: 300px;
-}
-.ico1 p {
-    padding-top: 10px;
-}
-#footer {
-    background: #908780;
-}
-#dir {
-    padding-top: 20px;
-    text-align: center;
-    font-family: 'Libre Baskerville', serif;
-}
-#avis li {
-    height: 20px;
-    width: 86px;
-    font-size: 10px;
-    padding: 0px 20px;
-    border-right: rgb(97, 97, 97) 2px solid;
-}
-#avis li a {
-    text-decoration: none;
-    color: rgb(97, 97, 97);
-}
-.acc {
-    border-left: 2px solid rgb(97, 97, 97);
-}
-#red {
-    padding-top: 20px;
-}
-#red img {
-    width: 40px;
-    height: 40px;
-}
-#red li {
-    padding: 0px 20px;
-}
-@media screen and (min-width:426px) {
-    #nav {
-        height: 80px;
-    }
-    #img {
-        width:80px;
-    }
-    #nav ul li {
-        width: 79px;
-        padding: 0px 0px;
-    }
-    #nav ul li a {
-        font-size: 20px;
-    }
 
+nav {
+  background: #F2C1AE;
 }
-@media screen and (min-width:1024px) {
-    #nav {
-        background: #D9CCC1;
-        height: 80px;
-    }
-    #nav ul {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-    }
-    #nav ul li {
-        display: flex;
-        width: 100px;
-        justify-content: center;
-    }
-    #nav ul li a{
-        text-decoration: none;
-        font-size: 22px;
-        color: black;
-        font-family: 'Bebas Neue', cursive;
-    }
-    #img {
-        width: 120px;
-    }
-    #par p {
-        font-size: 25px;
-    }
-    #sec1 {
-        height: 400px;
-    }
-    #par {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.462), rgba(255, 255, 255, 0.077));
-    }
-    #footer {
-        background: #908780;
-    }
-    #dir {
-        padding-top: 20px;
-        text-align: center;
-        font-family: 'Libre Baskerville', serif;
-    }
-    #avis li {
-        display: flex;
-        justify-content: center;
-        width: 150px;
-        font-size: 12px;
-        padding: 0px 20px;
-        border-right: rgb(97, 97, 97) 2px solid;
-    }
-    #avis li a {
-        text-decoration: none;
-        color: rgb(97, 97, 97);
-    }
-    .acc {
-        border-left: 2px solid rgb(97, 97, 97);
-    }
-    #red {
-        padding-top: 20px;
-    }
-    #red img {
-        width: 40px;
-        height: 40px;
-    }
-    #red li {
-        padding: 0px 20px;
-    }
-   
+
+nav div {
+  padding-left: 30px;
 }
+
+nav div img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 15px;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav ul li a {
+  padding: 5px 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #0D0000;
+  font-family: 'Bebas Neue', cursive;
+}
+
+nav ul li a:hover {
+  color: #F2DBCE;
+  border-bottom: #F2DBCE solid 2px;
+}
+
+#div1 {
+  background-image: url(../Media/fondo_sec.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  padding: 0;
+}
+
+#div1 div {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.688)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+  padding-left: 30px;
+  height: 550px;
+}
+
+#div1 div h2 {
+  height: 100px;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 60px;
+  font-size: 40px;
+  color: #F2DBCE;
+}
+
+#div1 div p {
+  padding-bottom: 60px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  width: 500px;
+  color: #F2DBCE;
+}
+
+#div2 {
+  background: #BF793B;
+  height: 500px;
+}
+
+#div2 div p {
+  color: #0D0000;
+  padding: 10px 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+footer {
+  background: #F2C1AE;
+}
+
+footer div {
+  padding-top: 20px;
+}
+
+footer #dire {
+  font-family: 'Bebas Neue', cursive;
+  color: #0D0000;
+}
+
+footer #redes ul li {
+  padding: 0px 20px;
+}
+
+footer #redes ul li a {
+  color: #0D0000;
+}
+
+footer #redes ul li a img {
+  height: 40px;
+  width: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+@import "_color";
+
+body {
+    background: $color5;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background: $color3;
+    div {
+        padding-left: 30px;
+       img {
+           height: 50px;
+           width: 50px;
+           border-radius: 50%;
+       } 
+    }
+    ul {
+        list-style: none;
+        padding-top: 15px;
+        li {
+            padding: 0px 20px;
+            a {
+                padding: 5px 5px;
+                font-size: 20px;
+                text-decoration: none;
+                color: $color4;
+                font-family: 'Bebas Neue', cursive;
+                &:hover {
+                    color: $color2;
+                    border-bottom: $color2 solid 2px;
+                }
+            }
+        }
+    }
+}
+#div1 {
+    background-image: url(../Media/fondo_sec.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding: 0;
+    div {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+        padding-left: 30px;
+        height: 550px;
+        h2 {
+            height: 100px;
+            font-family: 'Bebas Neue', cursive;
+            padding-top: 60px;
+            font-size: 40px;
+            color: $color2;
+        }
+        p {
+            padding-bottom: 60px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 35px;
+            width: 500px;
+            color: $color2;
+        }
+    }
+}
+#div2 {
+    background: $color1;
+    height: 500px;
+    div {
+        p {
+            color: $color4;
+            padding: 10px 0px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+        }
+    }
+}
+footer {
+    background: $color3;
+    div {
+        padding-top: 20px;
+    }
+    #dire {
+        font-family: 'Bebas Neue', cursive;
+        color: $color4;
+    }
+    #redes {
+        ul {
+            li {
+                padding: 0px 20px;
+                a {
+                    color: $color4;
+                    img {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
