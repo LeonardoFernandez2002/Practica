@@ -1,4 +1,7 @@
 @import "_color";
+@import "_mixin";
+@import "_variables";
+
 
 body {
     background: $color5;
@@ -21,10 +24,8 @@ nav {
         li {
             padding: 0px 20px;
             a {
-                padding: 5px 5px;
-                font-size: 20px;
+                @include etiquetas (5px 5px,20px,$color4);
                 text-decoration: none;
-                color: $color4;
                 font-family: 'Bebas Neue', cursive;
                 &:hover {
                     color: $color2;
@@ -53,11 +54,11 @@ nav {
             color: $color2;
         }
         p {
-            padding-bottom: 60px;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 35px;
-            width: 500px;
-            color: $color2;
+            padding-bottom: map-get($parrafo , padding-bottom );
+            font-family: map-get($parrafo, font-family );
+            font-size: map-get($parrafo , font-size );
+            width: map-get($parrafo , width );
+            color: map-get($parrafo, color );
         }
     }
 }
