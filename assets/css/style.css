@@ -34,7 +34,7 @@ nav ul li a:hover {
 }
 
 #div1 {
-  background-image: url(/assets/Media/cafe1.jpg);
+  background-image: url(../Media/cafe1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +110,7 @@ footer #redes ul li a img {
 }
 
 #body_pro {
-  background-image: url(/assets/Media/tasty-classic-traditional-italian-coffee-cappuccino-on-table-in-cafe-day-light-top-view-with-copy-space.jpg);
+  background-image: url(../Media/tasty-classic-traditional-italian-coffee-cappuccino-on-table-in-cafe-day-light-top-view-with-copy-space.jpg);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,7 +226,7 @@ footer #redes ul li a img {
 
 #sucu {
   height: 650px;
-  background-image: url(/assets/Media/media.jpg);
+  background-image: url(../Media/media.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,7 +256,7 @@ footer #redes ul li a img {
 
 #sucu1 {
   height: 650px;
-  background-image: url(/assets/Media/interior-shot-of-cafe-with-chairs-near-the-bar-with-wooden-tables.jpg);
+  background-image: url(../Media/interior-shot-of-cafe-with-chairs-near-the-bar-with-wooden-tables.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,7 +287,7 @@ footer #redes ul li a img {
 
 #contact {
   height: 700px;
-  background-image: url(/assets/Media/fondo_con.webp);
+  background-image: url(../Media/fondo_con.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
