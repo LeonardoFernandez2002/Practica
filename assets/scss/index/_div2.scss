@@ -1,6 +1,6 @@
 #div2 {
     background: $color1;
-    height: 500px;
+    height: 400px;
     div {
         p {
             color: $color4;
@@ -8,5 +8,10 @@
             font-family: 'Bebas Neue', cursive;
             font-size: 20px;
         }
+    }
+}
+@media screen and (max-width:426px) {
+    #div2 {
+        height: 600px;
     }
 }

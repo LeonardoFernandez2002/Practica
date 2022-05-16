@@ -73,7 +73,7 @@ nav ul li a:hover {
 
 #div2 {
   background: #BF793B;
-  height: 500px;
+  height: 400px;
 }
 
 #div2 div p {
@@ -81,6 +81,12 @@ nav ul li a:hover {
   padding: 10px 0px;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
+}
+
+@media screen and (max-width: 426px) {
+  #div2 {
+    height: 600px;
+  }
 }
 
 footer {
