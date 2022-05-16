@@ -1,0 +1,51 @@
+#sucu {
+    height: 650px;
+    background-image: url(/assets/Media/media.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div {
+        height: 650px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+        .norte {
+            margin-top: 20px;
+            padding: 30px 30px 0px;
+            font-family: 'Bebas Neue', cursive;
+            color: $color2;
+            font-size: 45px;
+        }
+        .norte1 {
+            padding-left: 45px;
+           width: 400px;
+           font-size: 35px;
+           font-family: 'Bebas Neue', cursive;
+           color: $color2;
+        }
+    }
+}
+#sucu1 {
+    height: 650px;
+    background-image: url(/assets/Media/interior-shot-of-cafe-with-chairs-near-the-bar-with-wooden-tables.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div {
+        height: 650px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+       .sur {
+           margin-top: 20px;
+           height: 100px;
+           padding: 30px 30px 0px;
+           font-family: 'Bebas Neue', cursive;
+           color: $color2;
+           font-size: 45px;
+       }
+       .sur1 {
+           padding-left: 45px;
+           width: 400px;
+           font-size: 35px;
+           font-family: 'Bebas Neue', cursive;
+           color: $color2;
+       }
+    }
+}

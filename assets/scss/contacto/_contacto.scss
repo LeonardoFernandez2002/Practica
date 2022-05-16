@@ -1,0 +1,30 @@
+#contact {
+    height: 700px;
+    background-image: url(/assets/Media/fondo_con.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .formulario {
+        background: rgba(0, 0, 0, 0.439);
+        border: solid 4px black;
+        height: 400px;
+        width: 400px;
+        .h1 {
+            padding-top: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Bebas Neue', cursive;
+        }
+        label {
+            color: gray;
+            font-family: 'Bebas Neue', cursive;
+        }
+        button {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 25px;
+        }
+        .rec {
+            color: black;
+        }
+    }   
+}

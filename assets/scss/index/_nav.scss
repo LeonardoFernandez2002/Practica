@@ -1,0 +1,28 @@
+nav {
+    background: $color3;
+    div {
+        padding-left: 30px;
+       img {
+           height: 50px;
+           width: 100px;
+       } 
+    }
+    ul {
+        list-style: none;
+        padding-top: 15px;
+        li {
+            padding: 0px 20px;
+            a {
+                color: $color4;
+                padding: 5px 5px;
+                font-size: 20px;
+                text-decoration: none;
+                font-family: 'Bebas Neue', cursive;
+                &:hover {
+                    color: $color2;
+                    border-bottom: $color2 solid 2px;
+                }
+            }
+        }
+    }
+}

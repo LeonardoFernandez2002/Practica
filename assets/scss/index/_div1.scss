@@ -1,0 +1,36 @@
+#div1 {
+    background-image: url(/assets/Media/cafe1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding: 0;
+    div {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+        padding-left: 30px;
+        height: 550px;
+        h2 {
+            height: 100px;
+            font-family: 'Bebas Neue', cursive;
+            padding-top: 60px;
+            font-size: 40px;
+            color: $color2;
+        }
+        p {
+            padding-bottom: 60px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 35px;
+            width: 500px;
+            color: $color2;
+        }
+    }
+}
+@media screen and (min-width:900px) {
+    #div1 {
+        div {
+            h2 {
+                padding-top: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+#body_pro {
+    background-image: url(/assets/Media/tasty-classic-traditional-italian-coffee-cappuccino-on-table-in-cafe-day-light-top-view-with-copy-space.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#_div{
+    padding-top: 20px;
+    background: #0d00007a;
+}
+#div_pro {
+    padding-top: 40px;
+    width: 300px;
+    img {
+        height: 200px;
+        width: 140px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 20px;
+        color: $color3;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+#div_pro1 {
+    padding-top: 40px;
+    width: 300px;
+    img {
+        height: 200px;
+        width: 140px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 20px;
+        color: $color3;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+#div_pro2 {
+    padding-top: 40px;
+    width: 300px;
+    img {
+        height: 200px;
+        width: 140px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 20px;
+        color: $color3;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+#div_pro3 {
+    padding-top: 40px;
+    width: 300px;
+    img {
+        height: 200px;
+        width: 140px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 20px;
+        color: $color3;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+@media screen and (min-width:551px) {
+    #div_pro {
+        width: 500px;
+        img {
+            border: solid 4px $color2;
+            height: 300px;
+            width: 200px;
+        }
+    }
+    #div_pro1 {
+        width: 500px;
+        img {
+            border: solid 4px $color4;
+            height: 300px;
+            width: 200px;
+        }
+    }
+    #div_pro2 {
+        width: 500px;
+        img {
+            border: solid 4px $color4;
+            height: 300px;
+            width: 200px;
+        }
+    }
+    #div_pro3 {
+        width: 500px;
+        img {
+            border: solid 4px $color2;
+            height: 300px;
+            width: 200px;
+        }
+    }
+}

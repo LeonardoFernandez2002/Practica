@@ -1,9 +1,3 @@
-body {
-  background: #F29494;
-  padding: 0;
-  margin: 0;
-}
-
 nav {
   background: #F2C1AE;
 }
@@ -14,8 +8,7 @@ nav div {
 
 nav div img {
   height: 50px;
-  width: 50px;
-  border-radius: 50%;
+  width: 100px;
 }
 
 nav ul {
@@ -28,10 +21,10 @@ nav ul li {
 }
 
 nav ul li a {
+  color: #0D0000;
   padding: 5px 5px;
   font-size: 20px;
   text-decoration: none;
-  color: #0D0000;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -41,7 +34,7 @@ nav ul li a:hover {
 }
 
 #div1 {
-  background-image: url(../Media/fondo_sec.webp);
+  background-image: url(/assets/Media/cafe1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,6 +63,12 @@ nav ul li a:hover {
   font-size: 35px;
   width: 500px;
   color: #F2DBCE;
+}
+
+@media screen and (min-width: 900px) {
+  #div1 div h2 {
+    padding-top: 100px;
+  }
 }
 
 #div2 {
@@ -108,5 +107,223 @@ footer #redes ul li a {
 footer #redes ul li a img {
   height: 40px;
   width: 40px;
+}
+
+#body_pro {
+  background-image: url(/assets/Media/tasty-classic-traditional-italian-coffee-cappuccino-on-table-in-cafe-day-light-top-view-with-copy-space.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#_div {
+  padding-top: 20px;
+  background: #0d00007a;
+}
+
+#div_pro {
+  padding-top: 40px;
+  width: 300px;
+}
+
+#div_pro img {
+  height: 200px;
+  width: 140px;
+}
+
+#div_pro p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F2C1AE;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#div_pro1 {
+  padding-top: 40px;
+  width: 300px;
+}
+
+#div_pro1 img {
+  height: 200px;
+  width: 140px;
+}
+
+#div_pro1 p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F2C1AE;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#div_pro2 {
+  padding-top: 40px;
+  width: 300px;
+}
+
+#div_pro2 img {
+  height: 200px;
+  width: 140px;
+}
+
+#div_pro2 p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F2C1AE;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#div_pro3 {
+  padding-top: 40px;
+  width: 300px;
+}
+
+#div_pro3 img {
+  height: 200px;
+  width: 140px;
+}
+
+#div_pro3 p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #F2C1AE;
+  font-family: 'Bebas Neue', cursive;
+}
+
+@media screen and (min-width: 551px) {
+  #div_pro {
+    width: 500px;
+  }
+  #div_pro img {
+    border: solid 4px #F2DBCE;
+    height: 300px;
+    width: 200px;
+  }
+  #div_pro1 {
+    width: 500px;
+  }
+  #div_pro1 img {
+    border: solid 4px #0D0000;
+    height: 300px;
+    width: 200px;
+  }
+  #div_pro2 {
+    width: 500px;
+  }
+  #div_pro2 img {
+    border: solid 4px #0D0000;
+    height: 300px;
+    width: 200px;
+  }
+  #div_pro3 {
+    width: 500px;
+  }
+  #div_pro3 img {
+    border: solid 4px #F2DBCE;
+    height: 300px;
+    width: 200px;
+  }
+}
+
+#sucu {
+  height: 650px;
+  background-image: url(/assets/Media/media.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sucu div {
+  height: 650px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.688)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+}
+
+#sucu div .norte {
+  margin-top: 20px;
+  padding: 30px 30px 0px;
+  font-family: 'Bebas Neue', cursive;
+  color: #F2DBCE;
+  font-size: 45px;
+}
+
+#sucu div .norte1 {
+  padding-left: 45px;
+  width: 400px;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+  color: #F2DBCE;
+}
+
+#sucu1 {
+  height: 650px;
+  background-image: url(/assets/Media/interior-shot-of-cafe-with-chairs-near-the-bar-with-wooden-tables.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sucu1 div {
+  height: 650px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.688)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
+}
+
+#sucu1 div .sur {
+  margin-top: 20px;
+  height: 100px;
+  padding: 30px 30px 0px;
+  font-family: 'Bebas Neue', cursive;
+  color: #F2DBCE;
+  font-size: 45px;
+}
+
+#sucu1 div .sur1 {
+  padding-left: 45px;
+  width: 400px;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+  color: #F2DBCE;
+}
+
+#contact {
+  height: 700px;
+  background-image: url(/assets/Media/fondo_con.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact .formulario {
+  background: rgba(0, 0, 0, 0.439);
+  border: solid 4px black;
+  height: 400px;
+  width: 400px;
+}
+
+#contact .formulario .h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#contact .formulario label {
+  color: gray;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#contact .formulario button {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+#contact .formulario .rec {
+  color: black;
+}
+
+body {
+  background: #F29494;
+  padding: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

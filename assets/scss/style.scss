@@ -1,6 +1,11 @@
-@import "_color";
-@import "_mixin";
-@import "_variables";
+@import "./index/color";
+@import "./index/nav";
+@import "./index/div1";
+@import "./index/div2";
+@import "./index/footer";
+@import "./Productos/div_p";
+@import "./Sucursales/sucursal";
+@import "./contacto/contacto";
 
 
 body {
@@ -8,93 +13,6 @@ body {
     padding: 0;
     margin: 0;
 }
-nav {
-    background: $color3;
-    div {
-        padding-left: 30px;
-       img {
-           height: 50px;
-           width: 50px;
-           border-radius: 50%;
-       } 
-    }
-    ul {
-        list-style: none;
-        padding-top: 15px;
-        li {
-            padding: 0px 20px;
-            a {
-                @include etiquetas (5px 5px,20px,$color4);
-                text-decoration: none;
-                font-family: 'Bebas Neue', cursive;
-                &:hover {
-                    color: $color2;
-                    border-bottom: $color2 solid 2px;
-                }
-            }
-        }
-    }
-}
-#div1 {
-    background-image: url(../Media/fondo_sec.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-    padding: 0;
-    div {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.688), rgba(255, 255, 255, 0));
-        padding-left: 30px;
-        height: 550px;
-        h2 {
-            height: 100px;
-            font-family: 'Bebas Neue', cursive;
-            padding-top: 60px;
-            font-size: 40px;
-            color: $color2;
-        }
-        p {
-            padding-bottom: map-get($parrafo , padding-bottom );
-            font-family: map-get($parrafo, font-family );
-            font-size: map-get($parrafo , font-size );
-            width: map-get($parrafo , width );
-            color: map-get($parrafo, color );
-        }
-    }
-}
-#div2 {
-    background: $color1;
-    height: 500px;
-    div {
-        p {
-            color: $color4;
-            padding: 10px 0px;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 20px;
-        }
-    }
-}
-footer {
-    background: $color3;
-    div {
-        padding-top: 20px;
-    }
-    #dire {
-        font-family: 'Bebas Neue', cursive;
-        color: $color4;
-    }
-    #redes {
-        ul {
-            li {
-                padding: 0px 20px;
-                a {
-                    color: $color4;
-                    img {
-                        height: 40px;
-                        width: 40px;
-                    }
-                }
-            }
-        }
-    }
-}
+
+
+
